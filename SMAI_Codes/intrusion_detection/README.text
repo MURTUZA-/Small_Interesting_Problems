@@ -1,8 +1,2 @@
-Team-7
-Project-30
-
-Members:
-1) Murtuza Bohra-20172104
-2) Nitin Ramrakhiyani - 20172091
-3) Abhay Rawat - 20172082
-4) Rashmi Kethireddy - 20172044
+Network activites like login time, logout time, protocol etc are the features which discribe behaviour of a user. Based in these features the task was to find the suspecious activities.
+Project includes all differet models trained on this dataset.
