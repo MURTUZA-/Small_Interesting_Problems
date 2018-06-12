@@ -5,17 +5,17 @@ Decision Tree:
 2) Important: train.csv and test.csv should have the header(header of the attributes) row in the first line. Columns in the train.csv and
               test.csv can be in different order, that program will take care with its header list.
 
-2) It can handle both continuous and discrete attributes in the data.
+3) It can handle both continuous and discrete(integral, sting, categorical etc.) attributes in the data.
      - cont_col: list of headers of all the continuous real value colomns in the data.
      - difference: It difines the threshold for deciding ranges(interval) an continuous attribute should be splited into based on entropy gain.
                    Higher the value of difference lesser the number of splits for continuous attributes.
      - max_split: Upper cap on maximum split of continuous attribute into ranges. If 'difference' is vary small than it will limit the split even 
                   when 'difference' threshold is not meet.
 
-3) y_name = '<header of the label>', The train label header should be assigned to variable y_name.
+4) y_name = '<header of the label>', The train label header should be assigned to variable y_name.
 
-4) percent_val = <value between [0,100)>, This is the percentage of data to be used as validation data.
+5) percent_val = <value between [0,100)>, This is the percentage of data to be used as validation data.
 
-5) Execution: execute the program as- 'python Decision_Tree.py /train.csv /test.csv'.
+6) Execution: execute the program as- 'python Decision_Tree.py /train.csv /test.csv'.
 
-6) Results: Test predictions will be printed on console.
+7) Results: Test predictions will be printed on console.
