@@ -17,3 +17,5 @@ Decision Tree:
 4) percent_val = <value between [0,100)>, This is the percentage of data to be used as validation data.
 
 5) Execution: execute the program as- 'python Decision_Tree.py /train.csv /test.csv'.
+
+6) Results: Test predictions will be printed on consol.
