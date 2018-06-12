@@ -18,4 +18,4 @@ Decision Tree:
 
 5) Execution: execute the program as- 'python Decision_Tree.py /train.csv /test.csv'.
 
-6) Results: Test predictions will be printed on consol.
+6) Results: Test predictions will be printed on console.
