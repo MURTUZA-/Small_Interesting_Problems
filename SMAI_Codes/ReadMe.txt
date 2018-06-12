@@ -1,16 +1,12 @@
 Decision Tree:
-1) This is an N-ary Decision tree(there are variants of it to built binary decision tree for continuous valued attributes in the data.) and
-   maximum depth of tree is equal to maximum number of attributes in the data.
+1) This is an N-ary Decision tree(there are variants of it to built binary decision tree for continuous valued attributes in the data.) and maximum depth of tree is equal to maximum number of attributes in the data.
 
-2) Important: train.csv and test.csv should have the header(header of the attributes) row in the first line. Columns in the train.csv and
-              test.csv can be in different order, that program will take care with its header list.
+2) Important: train.csv and test.csv should have the header(header of the attributes) row in the first line. Columns in the train.csv and test.csv can be in different order, that program will take care with its header list.
 
 3) It can handle both continuous and discrete(integral, sting, categorical etc.) attributes in the data.
      - cont_col: list of headers of all the continuous real value colomns in the data.
-     - difference: It difines the threshold for deciding ranges(interval) an continuous attribute should be splited into based on entropy gain.
-                   Higher the value of difference lesser the number of splits for continuous attributes.
-     - max_split: Upper cap on maximum split of continuous attribute into ranges. If 'difference' is vary small than it will limit the split even 
-                  when 'difference' threshold is not meet.
+     - difference: It difines the threshold for deciding ranges(interval) an continuous attribute should be splited into based on entropy gain. Higher the value of difference lesser the number of splits for continuous attributes.
+     - max_split: Upper cap on maximum split of continuous attribute into ranges. If 'difference' is vary small than it will limit the split even when 'difference' threshold is not meet.
 
 4) y_name = '<header of the label>', The train label header should be assigned to variable y_name.
 
