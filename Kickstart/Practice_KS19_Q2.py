@@ -13,11 +13,11 @@ def max_subarray(arr):
 			max_idx = itr
 	return sum_sub_arr
 
-	T = int(input())
-	for i in range(T):
-		N = int(input())
-		arr = np.zeros(N)
-		b_score = input()
-		arr = np.array([int(b_score[j]) for j in range(len(b_score))])
-		# max_b_score = max_subarray(arr)
-		print(max_subarray(arr))
+T = int(input())
+for i in range(T):
+	N = int(input())
+	arr = np.zeros(N)
+	b_score = input()
+	arr = np.array([int(b_score[j]) for j in range(len(b_score))])
+	# max_b_score = max_subarray(arr)
+	print(max_subarray(arr))
