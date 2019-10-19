@@ -1,16 +1,16 @@
 def guess_the_number(A, B, N):
 	for itr in range(N):
-		number = A+int((B-A)/2)
+		number = int((B+A)/2)
 		print(number)
 		response = input()
 		if(response =='CORRECT'):
 			break
 		elif(response == 'TOO_SMALL'):
 			# number = int((B-number)/2)
-			A = number
+			A = number+1
 		elif(response == 'TOO_BIG'):
-			B = number
-		elif(response == 'WRONG_ANSWER '):
+			B = number-1
+		elif(response == 'WRONG_ANSWER'):
 			quit()
 
 
@@ -24,4 +24,4 @@ for test_itr in range(T):
 	B = int(AB.split()[1])
 	# print(B)
 	N = int(input())
-	guess_the_number(A,B,N)
+	guess_the_number(A+1,B,N)
