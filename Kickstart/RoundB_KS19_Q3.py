@@ -1,4 +1,3 @@
-
 def maxSum(indx):
 	global max_trinket
 	global from_indx
