@@ -58,13 +58,31 @@ def assign_candy(n, arr, index):
 
 
 def candies(n, arr):
-    count=0
-    for index in range(n):
-        if index in candy_dict.keys():
-            count+=candy_dict[index]
+    candy_list1 = []
+    candy_list1.append(1)
+    for index in range(1,n):
+        if arr[index]>arr[index-1]:
+            candy_list1.append(candy_list1[index-1]+1)
         else:
-            count += assign_candy(n,arr,index)
+            candy_list1.append(1)
+    index=n-2
+    candy_list2 = [1]*n
+    # candy_list2[n-1] = max(candy_list[n-1],1)
+    while(index>=0):
+        if arr[index]>arr[index+1]:
+            candy_list2[index] = candy_list2[index+1]+1
+        index-=1
+    count =0
+    for index in range(n):
+        count += max(candy_list1[index], candy_list2[index])
     return count
+    # count=0
+    # for index in range(n):
+    #     if index in candy_dict.keys():
+    #         count+=candy_dict[index]
+    #     else:
+    #         count += assign_candy(n,arr,index)
+    # return count
 
 
 if __name__ == '__main__':
