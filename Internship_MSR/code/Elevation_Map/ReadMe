@@ -1,0 +1,23 @@
+Required Python3 Liberaries:
+	- matplotlib
+	- sklearn
+	- mpl_toolkits
+	- cv2
+	- collections
+
+------------------------
+Execution:
+
+Run the following file to get the elevation scatter plot.
+	- Elevation.py
+------------------------
+Files Descriptions:
+	- Calibration.py; It uses the CalibrationData.csv (simulation data for calibration of the placido disk) and trains a linear regression model to predict the elevation value at discrete points on the rings. Calibration method is motivated from the following paper "Open-access operating algorithms for commercial videokeratographer and imporvement of corneal sampling."
+
+	- Elevation.py; Takes placido reflecting eye image as input and process it to extract the points on the distinct rings. Then for each extracted point, elevation value is estimated using trained regression model.
+	
+	- polar.py; It takes image as input and produce the polar image about the given origin i.e. the rings in the image will become linear lines. [Not used in our current pipeline]
+
+	- util.py; all the helper function for image processing and elevation estimation are defined in this file.
+
+------------------------
