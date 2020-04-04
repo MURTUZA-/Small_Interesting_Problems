@@ -1,0 +1,98 @@
+
+PROBLEM:1
+
+	Title : We need Formatting !!! :P
+
+	Given a piece of typed text and the size of the margins, your objective is to format the text in such a way that the first and the last word in each line begin at the beginning and end at the ending of the left and right margins respectively. Another constraint is that inter word space must be nearly the same.
+
+Remember! you must not place hyphen or break any word.
+
+--------------------*********------------------------------------************------------------------------------
+--------------------*********------------------------------------************------------------------------------
+
+PROBLEM:2
+
+	Title : Hey whats the factorial of 200 !?!
+
+Your task is to find the factorial of big numbers without using the float or double type. Example
+
+Input = 200
+
+Wrong Output = 7.886578673 E+374
+
+Correct Output = 78865786736479050355236321393218506229513597768717326329474
+2533244359449963403342920304284011984623904177212138919638830257642790242637
+1050619266249528299311134628572707633172373969889439224456214516642402540332
+9186413122742829485327752424240757390324032125740557956866022603190417032406
+2351700858796178922222789623703897374720000000000000000000000000000000000000
+000000000000
+
+--------------------*********------------------------------------************------------------------------------
+--------------------*********------------------------------------************------------------------------------
+
+PROBLEM:3
+	Title : evaluation of prefix expressions
+
+Given a arithmetic prefix expression you are required to evaluate it. It will be clear from the example
+Input = *++4592
+Output = 36
+
+--------------------*********------------------------------------************------------------------------------
+--------------------*********------------------------------------************------------------------------------
+
+PROBLEM:4
+	Title : The point of minimum distance
+
+You will be given a set of points from the 2D plane. Your task is to find a point, whose sum of distances from all the other points is minimum.
+
+Input will contain the number of points and the points as {x1,y1} ,{x2,y2} and so on . . .
+Output must contain the point which is minimum.
+
+--------------------*********------------------------------------************------------------------------------
+--------------------*********------------------------------------************------------------------------------
+
+PROBLEM:5
+
+You will be given a pattern of the form
+
+.jjjjjjjjjjjjjjjjjjjjjjjjj.eeeeeeeeeeeeeee.bbbbbbbb.ddddddddddddddddddddd.
+.jjjjjjjjjjjjjjjjjjjjjjjjj.eeeeeeeeeeeeeee.bbbbbbbb.ddddddddddddddddddddd.
+.jjjjjjjjjjjjjjjjjjjjjjjjj.eeeeeeeeeeeeeee.bbbbbbbb.ddddddddddddddddddddd.
+.jjjjjjjjjjjjjjjjjjjjjjjjj.eeeeeeeeeeeeeee.bbbbbbbb.ddddddddddddddddddddd.
+.jjjjjjjjjjjjjjjjjjjjjjjjj.eeeeeeeeeeeeeee.bbbbbbbb.......................
+.jjjjjjjjjjjjjjjjjjjjjjjjj.eeeeeeeeeeeeeee.bbbbbbbb.ccccccccccccccccccccc.
+.jjjjjjjjjjjjjjjjjjjjjjjjj.eeeeeeeeeeeeeee.bbbbbbbb.ccccccccccccccccccccc.
+...........................eeeeeeeeeeeeeee.bbbbbbbb.ccccccccccccccccccccc.
+.iiiiiiiiii.kkkkkkkkkkkkkk.eeeeeeeeeeeeeee.bbbbbbbb.ccccccccccccccccccccc.
+
+Input will also contain the dimension of the pattern. The top right corner of the pattern is the location (1,1). Each of the (.) represent gaps. Each pattern formed by the set of same characters is called a tile. Your job is to print the location and the size of each tile.
+Here is an example:
+
+Input 1 = Size of the pattern in characters.
+Input 2 = The pattern itself. For example use the pattern above
+
+Output =
+– Tile of character ’j’ is at (2,2) and size is 7x25
+– Tile of character ’i’ is at (9,2) and size is 1x10
+– Tile of character ’k’ is at (9,13) and size 1x14
+– And others . . .
+
+--------------------*********------------------------------------************------------------------------------
+--------------------*********------------------------------------************------------------------------------
+
+PROBLEM:6
+	Title : Minimum Steps
+
+Suppose you are allowed to do the following operations:
+1. Divide by 2
+2. Divide by 3
+3. Subtract 1
+Your task is to reduce a given number to 1 using only the operations listed above. The catch here is that you must use the minimum number of operations. You are allowed to divide using 2 or 3 only if the number is properly divisible by it, ie no remainder must be left. Here is an exmple for you.
+Input = 10
+Output 1 = /2 -1 /2 /2 (Intermediate numbers : 5 4 2 1)
+Output 2 = -1 /3 /3 (Intermediate numbers : 9 3 1)
+The second output has less number of steps so you must print it.
+
+--------------------*********------------------------------------************------------------------------------
+--------------------*********------------------------------------************------------------------------------
+

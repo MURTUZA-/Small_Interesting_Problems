@@ -1,0 +1,2 @@
+Network activites like login time, logout time, protocol etc are the features which discribe behaviour of a user. Based in these features the task was to find the suspecious activities.
+Project includes all differet models trained on this dataset.
